@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/setting_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/spacing_small">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_language_white_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="@string/language"
+                android:textSize="20dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <Spinner android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/language"
+            android:paddingLeft="80dp" />
+
+        <View style="@style/Divider"></View>
+
+        <LinearLayout
+            android:id="@+id/setting_background_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/spacing_small">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_style_white_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="@string/background_image"
+                android:textSize="20dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <View style="@style/Divider"></View>
+
+        <LinearLayout
+            android:id="@+id/setting_give_five_stars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/spacing_small">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_star_amber_a400_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="@string/give_five_stars"
+                android:textSize="20dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View style="@style/Divider"></View>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

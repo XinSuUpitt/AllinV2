@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/reminder_todo"
+        android:title="@string/reminder"
+        android:icon="@drawable/ic_alarm_on_black_24dp"/>
+        <!--android:icon="@drawable/reminder"-->
+
+
+    <item
+        android:id="@+id/todo_list_item"
+        android:title="@string/todo"
+        android:icon="@drawable/todo_list_icon"/>
+
+    <item
+        android:id="@+id/notebook"
+        android:title="@string/notebook"
+        android:icon="@drawable/notebook"/>
+
+
+    <item
+        android:id="@+id/calculator"
+        android:title="@string/calculator"
+        android:icon="@drawable/calculator_icon"/>
+
+    <item android:title="@string/general">
+
+        <menu>
+
+            <item
+                android:id="@+id/setting"
+                android:title="@string/settings"
+                android:icon="@drawable/ic_settings_white_18dp"/>
+
+            <item
+                android:id="@+id/help"
+                android:title="@string/help"
+                android:icon="@drawable/ic_help_white_18dp"/>
+
+            <item
+                android:id="@+id/about_us"
+                android:title="@string/aboutme"
+                android:icon="@drawable/ic_info_white_18dp"/>
+        </menu>
+    </item>
+
+
+</menu>

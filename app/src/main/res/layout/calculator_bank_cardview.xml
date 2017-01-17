@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/spacing_ssmall">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:background="@drawable/blankcard">
+
+        <TextView
+            android:id="@+id/card_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/spacing_small"
+            android:textSize="@dimen/spacing_small"
+            android:text="card name"
+            android:textColor="#f2c706"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="52dp">
+
+            <TextView
+                android:id="@+id/bank_preview_bank_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="XXXX XXXX XXXX "
+                android:textSize="@dimen/spacing_small"
+                android:textColor="#f2c706"
+                android:paddingLeft="@dimen/spacing_medium" />
+
+            <TextView
+                android:id="@+id/bank_preview_bank_name_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXX"
+                android:textSize="@dimen/spacing_small"
+                android:textColor="#f2c706"
+                android:layout_toEndOf="@+id/bank_preview_bank_name_1"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/bank_preview_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="first Name"
+                android:textSize="@dimen/spacing_small"
+                android:paddingLeft="@dimen/spacing_ssmall"
+                android:textColor="#f2c706" />
+
+            <TextView
+                android:id="@+id/bank_preview_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/bank_preview_first_name"
+                android:paddingLeft="4dp"
+                android:text="last name"
+                android:textColor="#f2c706"
+                android:textSize="@dimen/spacing_small" />
+
+            <TextView
+                android:id="@+id/bank_preview_expiration_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/spacing_larger"
+                android:gravity="center_horizontal"
+                android:text="00/00"
+                android:textColor="#f2c706"
+                android:textSize="@dimen/spacing_small"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bank_preview_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"/>
+
+</android.support.v7.widget.CardView>

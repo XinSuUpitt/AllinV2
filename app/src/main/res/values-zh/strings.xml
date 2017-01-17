@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小管家</string>
+
+    <string name="action_setting">设置</string>
+    <string name="set_date">设置日期</string>
+    <string name="set_time">设置时间</string>
+    <string name="completed">已完成</string>
+    <string name="whats_next">提醒事项</string>
+    <string name="action_delete">删除</string>
+
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <string name="new_todo_list_name">姓</string>
+    <string name="new_todo_list_description">清单描述</string>
+    <string name="add_a_to_do">增加新清单</string>
+    <string name="add_a_todo_item">添加清单项目</string>
+
+    <string name="default_pw">!)@(#*$%%^1092384756</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="about_me">开发者: 苏昕\n邮箱: xis49@pitt.edu\n电话: 412.304.5387\n如果您有任何的意见或建议, 欢迎联系。
+        \n\n\n我是一名在读研究生, 利用课余时间的晚上和周末去开发这个APP, 如果您觉得喜欢,您可以给我五星评价;如果您非常喜欢,您可以给我一些打赏。即使您不喜欢这个APP,也希望您能给我四星评价。非常感谢您!!</string>
+
+    <string name="about_me_donation">如果您想给我打赏, 请点击上面的地址进行复制。 \n\n版本: 1.0</string>
+    <string name="venmo">Xin-Su-2</string>
+    <string name="wechat">suxin20100529</string>
+    <string name="alipay">820897172@qq.com</string>
+
+    <string name="help_reminder">Reminder是一个可以提醒您重要事项的小工具。您可以设置提醒要点、提醒日期和时间,到时间以后它会进行推送和闹铃提醒您未完成的事项。如果您已经完成了某些事项,您可以勾选或者进行删除,这样就不会推送并响铃。</string>
+    <string name="help_todo">Todo是一个愿望清单,您可以设置清单名称,并且添加清单内容项。长按主菜单清单名称进行删除, 点击次级菜单的清除进行清单内容项的删除。</string>
+    <string name="help_notebook">Notebook可以帮助您有效地记录,您可以加入笔记名称,笔记内容,并且可以进行拍照并存储在APP内部。</string>
+    <string name="help_calculator">Calculator是一个多功能\"计算器\", 您可以当作常规计算器使用,你也可以在第一次设置时设置密码并且按百分号,这样以后每次输入正确密码后,会进入到私人界面,您可以在此界面存储隐私信息,如银行卡、重要用户名和密码等。所有密码已经过SHA-256加密处理,安全有保证。</string>
+
+    <string name="user_profile_picture">用户头像</string>
+
+    <string name="choose_user_picture">选择用户照片</string>
+
+    <string name="basic_info_edit_email_hint">邮箱</string>
+    <string name="basic_info_edit_name_hint">姓名</string>
+
+    <string-array name="language">
+        <item>选择语言</item>
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+
+    <string name="reminder">注意事项提醒</string>
+    <string name="todo">愿望清单</string>
+    <string name="notebook">笔记本</string>
+    <string name="calculator">计算器</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="aboutme">关于我</string>
+    <string name="general">通用</string>
+
+
+    <string name="new_todo_list">添加愿望清单</string>
+    <string name="add">添加</string>
+    <string name="cancel">取消</string>
+    <string name="wishlist_name">清单名称</string>
+    <string name="item_in">/"</string>
+    <string name="has_been_cleared">/"中的所有项目已经被清除</string>
+    <string name="long_click_to_delete">长按清单删除</string>
+
+
+    <string name="click_image_to_show_full_image">点击图片查看大图</string>
+    <string name="note_name">笔记名称</string>
+    <string name="write_your_note_content_here">添加笔记内容</string>
+
+
+    <string name="save">保存</string>
+    <string name="clear">清除所有</string>
+    <string name="camera">照相机</string>
+    <string name="delete">删除</string>
+    <string name="homepage">程序主菜单</string>
+    <string name="reset_password">重置密码</string>
+
+
+    <string name="set_password_and_click">设置密码点击%</string>
+    <string name="bank">银行卡</string>
+    <string name="secret">重要信息</string>
+    <string name="secret_name">私密信息名称</string>
+    <string name="secret_textview_hint">在这可以添加重要的用户名和密码</string>
+    <string name="secret_cardview_hint">添加隐私片断</string>
+
+
+    <string name="language">多语言</string>
+    <string name="background_image">更换壁纸</string>
+    <string name="give_five_stars">五星评价</string>
+
+
+    <string name="got_it">知道了</string>
+
+
+    <string name="aboutme_venmo">Venmo</string>
+    <string name="aboutme_wechat">微信</string>
+    <string name="aboutme_Alipay">支付宝</string>
+    <string name="venmo_copy">Venmo地址被成功复制</string>
+    <string name="wechat_copy">微信账号被成功复制</string>
+    <string name="alipay_copy">支付宝账号被成功复制</string>
+
+
+    <string name="first_name">名</string>
+    <string name="last_name">姓</string>
+    <string name="name_id">身份证号</string>
+    <string name="bank_name">银行名称</string>
+    <string name="bank_card_number">银行卡号</string>
+    <string name="expiration_date">有效期</string>
+    <string name="cvv_code">CVV安全码</string>
+    <string name="billing_address">邮寄地址</string>
+    <string name="apt_number">邮寄地址公寓号</string>
+
+    <string name="alarm">闹钟</string>
+    <string name="alarm_content">您有一个提醒事项未完成</string>
+</resources>
