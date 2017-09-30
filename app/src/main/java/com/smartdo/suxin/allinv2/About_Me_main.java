@@ -22,6 +22,8 @@ import static android.content.Context.CLIPBOARD_SERVICE;
 
 public class About_Me_main extends Fragment {
 
+    // Catherine dasha zi
+
     @BindView(R.id.venmo) TextView venmo;
     @BindView(R.id.wechat) TextView wechat;
     @BindView(R.id.alipay) TextView alipay;
